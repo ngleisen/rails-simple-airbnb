@@ -1,0 +1,21 @@
+<div class="image"></div>
+
+<div class="container mt-10">
+  <div class="row">
+    <div class="col-8">
+      <div class="card-body">
+        <h5 class="card-title"><%= @flat.name %></h5>
+        <p class="card-text"><%= @flat.address %></p>
+        </p>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card-body">
+        <h5 class="card-title">Book it now!</h5>
+          <p class="card-text">
+          <%= @flat.number_of_guests %> People
+          <br><%= @flat.price_per_night %> E
+        <hr>
+        <button class="btn btn-warning">Check the date</button>
+      </div>
+    </div>
